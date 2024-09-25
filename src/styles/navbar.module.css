@@ -1,0 +1,42 @@
+.navbar{
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 30vh;
+    background-color: black;
+    padding: 2.5%;
+
+   
+        
+    
+
+    @media screen and (max-width: 768px){
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+  
+    }
+    @media screen and (max-width:350px){
+        
+        padding: 0%;
+        
+       
+        
+         
+ 
+     }
+
+
+}
+
+.logo{
+    @media screen and (max-width: 768px){
+       
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;     
+      
+    
+    
+        
+    }
+}
